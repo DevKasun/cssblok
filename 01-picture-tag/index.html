@@ -19,14 +19,15 @@
 						srcset="img/medium.png"
 						media="(min-width: 600px)"
 					/>
-					<source
-						class="test"
-						srcset="img/small.png"
-						media="(min-width: 0px)"
-					/>
+					<source srcset="img/small.png" media="(min-width: 0px)" />
 					<img src="img/large.jpg" loading="lazy" alt="" />
 				</picture>
 			</header>
+			<picture>
+				<source srcset="img/image-2.avif" type="image/avif" />
+				<source srcset="img/image-1.webp" type="image/webp" />
+				<img src="img/image-3.jpeg" alt="Jpeg version image" />
+			</picture>
 		</main>
 	</body>
 </html>
